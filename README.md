@@ -1,2 +1,5 @@
 # Brain-tumor-detection-using-MRI-Images
-The most common modality for brain tumor imaging. MRI provides high-resolution images and can distinguish between different types of brain tissues. 
+
+Description of the dataset
+
+I'm working on a project where I'll be using MRI scans to detect brain tumors. I've gathered a dataset of MRI images that are already labeled as healthy or containing a tumor. I'm sharing this dataset with the community in case anyone wants to use it for their own research or projects.
