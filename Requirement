@@ -1,0 +1,21 @@
+These dependencies ensure you have the necessary tools and libraries to run effectively:
+Python 3.x - Python is the programming language used for implementing the project.
+
+PyTorch - PyTorch is a popular deep learning framework that provides tensors and dynamic neural networks in Python.
+Installation: pip install torch torchvision
+
+OpenCV - OpenCV (Open Source Computer Vision Library) is used for image processing tasks, such as reading and resizing MRI images.
+Installation: pip install opencv-python
+
+Matplotlib - Matplotlib is a plotting library for Python used to visualize model outputs, performance metrics, and other data.
+Installation: pip install matplotlib
+
+Other Libraries:
+
+scikit-learn - scikit-learn provides simple and efficient tools for data mining and data analysis, useful for metrics and model evaluation.
+Installation: pip install scikit-learn
+TensorFlow - TensorFlow is another deep learning framework that could be used alongside or instead of PyTorch, depending on project requirements.
+Installation: pip install tensorflow
+
+CUDA (Optional, for GPU acceleration)
+If you have NVIDIA GPUs and want to accelerate computations, install CUDA and cuDNN.
