@@ -1,0 +1,21 @@
+MRI Custom Dataset Class
+Description:
+This repository contains a custom dataset class (MRI) designed for handling MRI (Magnetic Resonance Imaging) scans used in medical applications, particularly for brain tumor detection. The class is implemented using PyTorch's Dataset module, enabling seamless integration with deep learning frameworks.
+
+Purpose:
+The MRI dataset class serves the purpose of organizing and preprocessing MRI scan images stored in specified directories (positive for tumor scans and negative for healthy scans). It converts these images into numpy arrays, normalizes pixel values for consistent input to neural networks, and provides a structured interface (__len__ and __getitem__ methods) for accessing images and labels during training or evaluation.
+
+Importance:
+1. Customization:Allows customization of data loading and preprocessing steps specific to MRI scans, such as resizing images and merging color channels.
+   
+2. Integration: Facilitates seamless integration with PyTorch's data handling utilities (DataLoader), ensuring efficient batch processing during model training.
+
+3. Scalability: Supports scalability by handling large datasets of MRI scans, essential for training robust deep learning models for medical image analysis.
+
+4. Reproducibility: Enhances reproducibility of experiments and models in medical imaging research by encapsulating data preparation steps within a well-defined class.
+
+5. Community Contribution: Provides a valuable resource for researchers and practitioners in the medical imaging field, encouraging collaboration and improvement of algorithms for critical healthcare applications.
+
+Usage:
+Researchers and developers can utilize this dataset class to preprocess MRI data effectively, normalize images for neural network training, and conduct experiments in brain tumor detection using advanced machine learning techniques.
+
